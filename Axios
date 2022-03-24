@@ -1,0 +1,8 @@
+npm install axios //use to fetch data
+
+import Axios from 'axios';
+
+const url = 'https://jsonplaceholder.typicode.com/posts/1';
+axios.get(url).then(response => {
+console.log(response.data);
+});
